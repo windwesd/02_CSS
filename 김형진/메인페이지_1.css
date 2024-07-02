@@ -1,0 +1,168 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'HSJiptokki-Black';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSJiptokki-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Helvetica, '나눔고딕', 'Nanum Gothic', '나눔스퀘어', 'Nanum Square', 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', Dotum, '돋움', sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+header{
+  height: 100px;
+  display: flex;
+  background-color: #20c5b0;
+  flex-direction: column;
+}
+
+.header-1{
+  height: 37px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top1{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 70px;
+
+}
+
+.top2{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-right: 70px;
+  flex-direction: row;
+}
+
+.header-2{
+  height:180vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.font-1{
+  display: inline-block;
+    margin-left: 14px;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.tm4{
+  display: inline;
+  margin-left: 1000px;
+  align-content: center;
+  
+}
+
+.search{
+  position: absolute;
+    right: 7%;
+    display: block;
+    width: 212px;
+    height: 34px;
+    margin-top: -17px;
+    padding: 0 35 0 40;
+    border-radius: 17px;
+    font-size: 12px;
+    text-align: center;
+}
+
+main{
+  height: 100px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+
+.conatainer-1{
+  display: flex;
+  padding-top: 15px;
+  width: 200px;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.conatainer-2{
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.list2{
+  width: auto;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  line-height: 3.9em;
+  background-color: #96C9F4;
+}
+
+.menulist{
+  font-size: 13px;
+  font-weight: bold;
+  padding-right: 9px;
+}
+
+.item1{
+  height: 180vh;
+  background-color: #FAFFAF;
+  text-align: center;
+  align-content: center;
+  font-size: 50px;
+}
+
+.item1>p{
+  font-family: 'HSJiptokki-Black';
+  user-select: none;
+}
+
+.item2{
+  
+  background-color: #FDFFD2;
+  display: flex;
+  flex-flow: row;
+}
+
+.item3{
+  background-color: #667BC6;
+  height: 0px;
+}
+
+.item2>ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item2>ul>li{
+  width: 33.3333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer1{
+  border: 1px solid black;
+  height: 100px;
+}
+
